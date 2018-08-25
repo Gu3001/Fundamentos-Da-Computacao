@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Minha Agenda</title>
+  </head>
+  <body>
+    <h1>Novo cadastro</h1>
+    <form action="cadastro.php" method="POST"><!--ACTION envia para o cadastro.php, depois para o servidor com o banco de dados.-->
+      Nome:</br>
+      <input type="text" name="nome"/><br/>
+      Telefone:</br>
+      <input type="text" name="telefone"/><br/>
+      Comentario:</br>
+      <textarea type="textarea" name="comentario" rows="10" cols="40"/></textarea><br/></br>
+      <input type="submit" value="Cadastrar"/><!--Quando clica no submit toma a ação (action), para enviar os dados-->
+    </form>
+
+  </body>
+</html>
